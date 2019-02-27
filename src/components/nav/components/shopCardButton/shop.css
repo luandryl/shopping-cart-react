@@ -1,0 +1,42 @@
+.shop-container {
+    height: inherit; 
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.shop-wrapper {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.shop-counter {
+    font: 14px 'Poppins', sans-serif;;
+    font-weight: 300; 
+    width: 1.5em;
+    height: 1.5em;
+    box-sizing: initial;
+
+    background: rgba(206,64,89);;
+    color: #eee;
+    text-align: center;
+    border-radius: 50%;    
+
+    line-height: 1.5em;
+    box-sizing: content-box; 
+    margin-bottom: .3rem;
+    cursor: pointer;
+}
+
+.label {
+    font: 14px 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300; 
+    color: #333;
+    margin-bottom: -5px;
+    cursor: pointer;
+}

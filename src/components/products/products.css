@@ -1,0 +1,11 @@
+.products-container {
+    display: flex;
+    justify-content: center;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 1024px;
+}

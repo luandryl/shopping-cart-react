@@ -1,0 +1,134 @@
+.cart-resume-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.cart-resume-wrapper {
+    width: 700px;
+    background: #fff;
+}
+
+.cart-resume-title {
+    border-bottom: 1px dotted #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.cart-resume-title i {
+    position: absolute;
+    top: -15px;
+    right:-15px;
+    cursor: pointer;
+    color: #333;
+}
+.cart-resume-title i:hover {
+    color: #e6e6e6;
+}
+.cart-resume-title label {
+    margin-left: 1rem;
+}
+.cart-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cart-details {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem;
+}
+
+.title {
+    font-family: "Poppins",sans-serif;
+    color: #666;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.desc {
+    font-family: "Poppins",sans-serif;
+    color: #666;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.cart-product-add-details {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    border-right: 1px dotted #e6e6e6;
+}
+.image-product {
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    border: 2px solid #e6e6e6;
+}
+.product-details {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 1rem;
+
+}
+
+.product-details a {
+    font-family: "Poppins",sans-serif;
+    color: #666;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.product-details label {
+    font-family: "Poppins",sans-serif;
+    color: #666;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-details span {
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color: #222;
+    font-size: 1rem;
+}
+
+.cart-resume-footer {
+    border-top: 1px dotted #e6e6e6;
+    text-align: center;
+}
+
+.btn-primary {
+    font-family: "Poppins",sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    padding: 9px 32px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+    background: #222;
+    border-color: #222;
+    color: #fff;
+    margin: 1.5rem .5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
