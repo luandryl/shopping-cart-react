@@ -4,7 +4,7 @@ The aim of this project its to construct a functional shopping cart with react a
 
 ### UI Images
 
-![alt text](https://imgur.com/jGeXBxG "home")
-![alt text](https://imgur.com/ej0qCFJ "add")
-![alt text](https://imgur.com/jMlSJdr "menu")
+![alt text](https://i.imgur.com/jGeXBxG "home")
+![alt text](https://i.imgur.com/ej0qCFJ "add")
+![alt text](https://i.imgur.com/jMlSJdr "menu")
 
